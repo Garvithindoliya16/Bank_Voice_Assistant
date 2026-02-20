@@ -6,7 +6,7 @@ from vosk import Model, KaldiRecognizer
 import time
 
 # ... (Vosk model loading code here) ...
-model = Model("models/vosk-model-small-hi-0.22")
+model = Model("models/vosk-model-hi-0.22")
 rec = KaldiRecognizer(model,16000)
 
 def listen():
